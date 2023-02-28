@@ -16,7 +16,7 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  header .container .h_logo {
+  header .container .logo {
     position: absolute;
     left: calc(50% - 40px);
     top: 16px;
@@ -170,7 +170,7 @@ main .info_styles {
   display: flex;
   justify-content: center; }
   main .info_styles img {
-    width: 385px; }
+    max-width: 385px; }
   main .info_styles .text_blok h3 {
     font-style: normal;
     font-weight: 700;
@@ -209,15 +209,18 @@ main .card5_info {
     max-width: 500px;
     margin: 70px 0 70px 50px; }
 
-/* menu styles */
 * {
   box-sizing: border-box; }
 
 body {
   font-size: 16px;
   background: #ECF0F1;
-  text-align: right;
-  overflow: hidden; }
+  text-align: right; }
+
+.menu ul li a {
+  color: black;
+  font: 40px 'Roboto', sans-serif;
+  background: #2980D9; }
 
 #menu {
   background: #2980D9;
