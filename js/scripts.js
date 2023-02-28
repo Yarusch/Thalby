@@ -19,6 +19,8 @@ $(document).ready(function(){
     });
 });
 
+/* menu settings */
+
 var trigger = document.getElementById('toggle');
 var box = document.getElementById('menu');
 
