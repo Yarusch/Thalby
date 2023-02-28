@@ -231,10 +231,10 @@ main {
         }
       }
 
-      .owl-carousel{
-        .owl-dots{
-          .owl-dot{
-            span{
+      .owl-carousel {
+        .owl-dots {
+          .owl-dot {
+            span {
               display: inline-block;
               width: 10px;
               height: 10px;
@@ -243,8 +243,9 @@ main {
               margin-right: 3px;
             }
           }
-          .active{
-            span{
+
+          .active {
+            span {
               background: #333;
             }
           }
