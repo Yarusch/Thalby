@@ -151,26 +151,19 @@ main .best_sellers {
         text-align: center;
         text-decoration-line: underline;
         color: #000000; }
-    main .best_sellers .container .owl-dots {
-      width: 100%;
-      display: flex;
-      justify-content: center; }
-      main .best_sellers .container .owl-dots button.owl-dot {
-        display: inline-block;
-        width: 10px;
-        height: 10px;
-        background-color: #E0E0E0;
-        border-radius: 50%;
-        margin-right: 6px;
-        border: none; }
-      main .best_sellers .container .owl-dots button.owl-dot.active {
-        background-color: #333; }
+    main .best_sellers .container .owl-carousel .owl-dots .owl-dot span {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background: gray;
+      border-radius: 50%;
+      margin-right: 3px; }
+    main .best_sellers .container .owl-carousel .owl-dots .active span {
+      background: #333; }
 main .info_styles {
   padding: 75px 0 50px 0;
   display: flex;
   justify-content: center; }
-  main .info_styles img {
-    max-width: 385px; }
   main .info_styles .text_blok h3 {
     font-style: normal;
     font-weight: 700;
@@ -195,18 +188,18 @@ main .info_styles {
 main .card2_info {
   background-color: rgba(204, 204, 204, 0.3); }
   main .card2_info .text_blok {
-    max-width: 500px;
+    max-width: 525px;
     margin: 70px 0 70px 50px; }
 main .card4_info {
   background: rgba(204, 204, 204, 0.6); }
   main .card4_info .text_blok {
-    max-width: 500px;
+    max-width: 525px;
     text-align: right;
     margin: 70px 50px 70px 0; }
 main .card5_info {
   background-color: white; }
   main .card5_info .text_blok {
-    max-width: 500px;
+    max-width: 525px;
     margin: 70px 0 70px 50px; }
 
 * {
@@ -214,8 +207,7 @@ main .card5_info {
 
 body {
   font-size: 16px;
-  background: #ECF0F1;
-  text-align: right; }
+  background: #ECF0F1; }
 
 .menu ul li a {
   color: black;
